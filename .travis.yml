@@ -1,0 +1,8 @@
+language: java
+dist: trusty
+
+
+jobs:
+ include:
+   - name: unit_test
+     script: ./gradlew lint test
